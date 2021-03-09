@@ -1,0 +1,80 @@
+body{
+    background-image: url(iron2.jpg);
+    
+    background-repeat: no-repeat;
+    position:center;
+    background-attachment: fixed;
+  
+
+
+}
+.container{
+    padding-top:0%;
+    block-size: 200%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: center;
+    
+    
+
+}
+.container h1{
+    color: yellow;
+    background-color: rgb(197, 185, 185);
+    text-shadow: 6px 8px 10px black ;
+    position: relative;
+    animation-name: mymove;
+    animation-duration: 5s;
+}
+@keyframes mymove{
+    from{top:100px;}
+    to{top: 0px;}
+}
+.container p{
+    font-family: sans-serif;
+    color:white;
+}
+.container div {
+    margin: 10px;
+    width: 150px;
+    height: 2000px;
+    padding-top: 10rem;
+    padding-left: 5rem;
+}
+.container img{
+position: relative;
+border:2px solid;
+width: 100%;
+height: 250px;
+border: solid 2px yellow;
+border-style: dotted;
+background-color: aliceblue solid;
+box-shadow:8px 10px 10px rgb(53, 51, 51);
+
+}
+.container img:hover{
+    background-position:relative;
+    background-image: url(text1.jpg);
+    animation-name: zoom;
+    animation-duration: 2s;
+    
+}
+@keyframes zoom{
+    from{top:5px}
+    to{top:0px}
+}
+.container .btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    font-size: larger;
+    block-size: 40px;
+    padding-left: 10px;
+    margin-right: 0%;
+    border: solid black transparent;
+}
+.container .btn:hover{
+    background-image:linear-gradient(red,blue);
+
+   
+}
